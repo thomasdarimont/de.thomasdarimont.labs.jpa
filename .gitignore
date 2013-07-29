@@ -1,6 +1,7 @@
-*.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
+target/
+.settings/
+.project
+.classpath
+.springBeans
+.sonar4clipse
+*.sonar4clipseExternals
