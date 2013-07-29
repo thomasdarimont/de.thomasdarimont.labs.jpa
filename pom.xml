@@ -15,6 +15,12 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>org.eclipse.persistence</groupId>
+			<artifactId>eclipselink</artifactId>
+			<version>${eclipselink}</version>
+		</dependency>
+
+		<dependency>
 			<groupId>org.hsqldb</groupId>
 			<artifactId>hsqldb</artifactId>
 			<version>${hsqldb}</version>
@@ -22,21 +28,17 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.eclipse.persistence</groupId>
-			<artifactId>org.eclipse.persistence.jpa</artifactId>
-			<version>${eclipselink}</version>
-		</dependency>
-
-		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>${junit}</version>
+			<scope>test</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>org.hamcrest</groupId>
 			<artifactId>hamcrest-core</artifactId>
 			<version>${hamcrest}</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
